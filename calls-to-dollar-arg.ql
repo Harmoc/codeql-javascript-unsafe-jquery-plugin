@@ -1,4 +1,4 @@
-import javascrip
+import javascript
 
 from CallExpr dollarCall, Expr dollarArg
 where 
