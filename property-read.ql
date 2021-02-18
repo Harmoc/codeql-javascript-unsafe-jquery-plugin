@@ -1,3 +1,5 @@
 import javascript
 
-select DataFlow::globalVarRef("$").getAPropertyRead("fn").getAPropertyReference()
+from DataFlow::Node dollarFlow
+where dollarFlow = jquery().getAPropertyRead("fn")
+select dollarFlow
